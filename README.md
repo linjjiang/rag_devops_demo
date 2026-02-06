@@ -80,7 +80,7 @@
 **部署与使用**
 - 在 Railway 项目中设置环境变量：`OPENAI_API_KEY` 与所有 `FIREBASE_*`。
 - 推送到 `main` 后，GitHub Actions 将自动构建、测试并部署到 Railway。
-- 部署完成后访问 `https://<railway-domain>/ui` 登录并开始聊天。
+- 部署完成后访问 `https://<railway-domain>/ui` 登录并开始聊天。或者是这个：`https://<railway-domain>/static/index.html`
 
 **文件位置参考**
 - 路由与静态挂载：`app.py:67`、`app.py:71-73`、`app.py:75-83`、`app.py:85-94`、`app.py:96`
